@@ -38,6 +38,7 @@ class StartButton extends StatelessWidget {
   _showJoinBetaDialog(BuildContext context) async {
     return showDialog(
       context: context,
+      useSafeArea: false,
       builder: (context) {
         return const JoinBetaDialog();
       },

@@ -9,7 +9,7 @@ void main() {
   WidgetsFlutterBinding.ensureInitialized();
 
   SystemChrome.setPreferredOrientations([
-    DeviceOrientation.landscapeRight,
+    DeviceOrientation.landscapeLeft,
   ])
       .then(
         (value) => SystemChrome.setEnabledSystemUIMode(

@@ -31,6 +31,7 @@ class TermsServiceButton extends StatelessWidget {
   _showTermsServiceDialog(BuildContext context) async {
     return showDialog(
       context: context,
+      useSafeArea: false,
       builder: (context) {
         return const TermsServiceDialog();
       },
